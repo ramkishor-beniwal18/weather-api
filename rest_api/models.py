@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Record(models.Model):
     date = models.DateField()
     lat = models.FloatField()
